@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIAPER | Engenharia - Avaliações - Perícias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --azul: #001d3d; --dourado: #c5a059; --branco: #ffffff; --cinza-claro: #f4f4f4; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; }
+        header { background: var(--azul); padding: 20px 0; border-bottom: 3px solid var(--dourado); text-align: center; }
+        .hero { background: linear-gradient(rgba(0,29,61,0.8), rgba(0,29,61,0.8)), url('https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=1000'); 
+                background-size: cover; color: white; padding: 80px 20px; text-align: center; }
+        .hero h1 { font-size: 2.5em; margin-bottom: 10px; color: var(--dourado); }
+        .container { max-width: 1100px; margin: auto; padding: 40px 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: var(--cinza-claro); padding: 25px; border-radius: 8px; border-top: 5px solid var(--dourado); }
+        .card h3 { color: var(--azul); border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+        .servicos-list { list-style: none; padding: 0; }
+        .servicos-list li { margin-bottom: 15px; display: flex; align-items: center; }
+        .servicos-list i { color: var(--dourado); margin-right: 15px; font-size: 1.2em; }
+        .cta-button { background: var(--dourado); color: white; padding: 15px 30px; text-decoration: none; border-radius: 50px; font-weight: bold; display: inline-block; margin-top: 20px; transition: 0.3s; }
+        footer { background: var(--azul); color: white; padding: 40px 20px; text-align: center; border-top: 5px solid var(--dourado); }
+    </style>
+</head>
+<body>
+<header>
+    <h1 style="color: white; margin:0;">VIA<span style="color: var(--dourado);">PER</span></h1>
+    <p style="color: var(--dourado); letter-spacing: 2px; font-size: 0.8em; margin:0;">ENGENHARIA • AVALIAÇÕES • PERÍCIAS</p>
+</header>
+<section class="hero">
+    <h1>Soluções Técnicas com Rigor e Imparcialidade</h1>
+    <p>Atuação conforme normas ABNT NBR 14653 para laudos judiciais e perícias de engenharia.</p>
+    <a href="https://wa.me/5534984234045" class="cta-button">SOLICITAR ORÇAMENTO</a>
+</section>
+<div class="container">
+    <div class="grid">
+        <div class="card">
+            <h3>Quem Somos</h3>
+            <p>A <strong>VIAPER Engenharia</strong> oferece soluções especializadas em avaliações imobiliárias, perícias de engenharia e laudos técnicos com foco em precisão e rastreabilidade de dados.</p>
+        </div>
+        <div class="card">
+            <h3>Serviços</h3>
+            <ul class="servicos-list">
+                <li><i class="fas fa-home"></i> Avaliação de Imóveis</li>
+                <li><i class="fas fa-gavel"></i> Perícias de Engenharia</li>
+                <li><i class="fas fa-file-alt"></i> Laudos e Pareceres Técnicos</li>
+                <li><i class="fas fa-user-tie"></i> Assistência Técnica Judicial</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>engenharia@viaper.com.br | (34) 9 8423-4045</p>
+    <p>Uberlândia - MG | Triângulo Mineiro</p>
+</footer>
+</body>
+</html>
