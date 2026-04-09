@@ -6,71 +6,44 @@
     <title>VIAPER Engenharia - Avaliações e Perícias</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        :root {
-            --azul-marinho: #001f3f;
-            --dourado: #c5a059;
-            --gelo: #f4f4f4;
-        }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: var(--gelo); color: #333; }
-        header { background-color: var(--azul-marinho); color: white; padding: 20px text-align: center; border-bottom: 5px solid var(--dourado); }
-        .logo { max-width: 200px; margin-bottom: 10px; }
-        .hero { background: linear-gradient(rgba(0,31,63,0.8), rgba(0,31,63,0.8)), url('https://images.unsplash.com/photo-1503387762-592dea58ef23?auto=format&fit=crop&q=80'); 
-                background-size: cover; color: white; padding: 60px 20px; text-align: center; }
-        .container { max-width: 1000px; margin: auto; padding: 20px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
-        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-top: 4px solid var(--dourado); }
-        h2 { color: var(--azul-marinho); border-left: 5px solid var(--dourado); padding-left: 10px; }
-        .btn-wpp { position: fixed; bottom: 20px; right: 20px; background-color: #25d366; color: white; padding: 15px 20px; border-radius: 50px; 
-                   text-decoration: none; font-weight: bold; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 1000; display: flex; align-items: center; }
-        .btn-wpp i { margin-right: 10px; font-size: 24px; }
-        footer { background: var(--azul-marinho); color: white; text-align: center; padding: 30px; margin-top: 40px; }
+        :root { --azul: #001d3d; --dourado: #c5a059; --branco: #ffffff; --cinza-claro: #f4f4f4; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; background-color: var(--cinza-claro); }
+        header { background: var(--azul); padding: 20px 0; border-bottom: 3px solid var(--dourado); text-align: center; }
+        .logo-img { max-width: 250px; height: auto; }
+        .hero { background: var(--azul); color: white; padding: 40px 20px; text-align: center; }
+        .flyer-img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin-top: 20px; }
+        .container { max-width: 1100px; margin: auto; padding: 40px 20px; }
+        .btn-wpp { position: fixed; bottom: 30px; right: 30px; background-color: #25d366; color: white; padding: 15px 25px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.3); z-index: 1000; display: flex; align-items: center; transition: 0.3s; }
+        .btn-wpp:hover { transform: scale(1.05); background-color: #128c7e; }
+        footer { background: var(--azul); color: white; text-align: center; padding: 30px; border-top: 3px solid var(--dourado); }
     </style>
 </head>
 <body>
 
 <header>
-    <img src="logo.png" alt="VIAPER Engenharia" class="logo" onerror="this.style.display='none'">
-    <h1>VIAPER ENGENHARIA</h1>
-    <p>Avaliações • Perícias • Laudos Técnicos</p>
+    <img src="logo.png" alt="VIAPER Engenharia" class="logo-img">
 </header>
 
 <section class="hero">
-    <h2>Soluções Técnicas com Rigor e Imparcialidade</h2>
-    <p>Atuação conforme normas ABNT NBR 14653 para laudos judiciais e perícias de engenharia.</p>
+    <div class="container">
+        <h1>Engenharia, Avaliações e Perícias</h1>
+        <p>Rigor técnico, imparcialidade e conformidade com as normas ABNT NBR 14653.</p>
+        <img src="Flayer.jpg" alt="VIAPER Flyer" class="flyer-img">
+    </div>
 </section>
 
 <div class="container">
-    <div class="grid">
-        <div class="card">
-            <h3><i class="fas fa-home"></i> Avaliação de Imóveis</h3>
-            <p>Urbanos e rurais com aplicação do Método Comparativo Direto de Dados de Mercado.</p>
-        </div>
-        <div class="card">
-            <h3><i class="fas fa-gavel"></i> Perícias de Engenharia</h3>
-            <p>Assistência técnica judicial e elaboração de laudos com fundamentação técnica e validade judicial.</p>
-        </div>
-        <div class="card">
-            <h3><i class="fas fa-file-alt"></i> Laudos e Pareceres</h3>
-            <p>Tratamento técnico com homogeneização e análise de outliers, garantindo rastreabilidade.</p>
-        </div>
-    </div>
-
-    <h2>Diferenciais</h2>
-    <ul>
-        <li>Rastreadibilidade e consistência de dados</li>
-        <li>Rigor técnico e imparcialidade</li>
-        <li>Atendimento em Uberlândia, Triângulo Mineiro e Minas Gerais</li>
-    </ul>
+    <h2 style="text-align: center; color: var(--azul);">Área de Atuação</h2>
+    <p style="text-align: center;">Uberlândia – MG | Triângulo Mineiro | Minas Gerais</p>
 </div>
 
 <footer>
-    <p><strong>Eng. Anísio Vieira de Souza Neto</strong></p>
-    <p><i class="fas fa-envelope"></i> engenharia@viaper.com.br | <i class="fas fa-phone"></i> (34) 9 8423-4045</p>
-    <p>Uberlândia - MG | Triângulo Mineiro</p>
+    <p><strong>Anísio Vieira de Souza Neto</strong> - Engenheiro Civil</p>
+    <p>engenharia@viaper.com.br | (34) 9 8423-4045</p>
 </footer>
 
-<a href="https://wa.me/5534984234045?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20perícia/avaliação." class="btn-wpp" target="_blank">
-    <i class="fab fa-whatsapp"></i> Solicitar Orçamento
+<a href="https://wa.me/5534984234045?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20perícia." class="btn-wpp" target="_blank">
+    <i class="fab fa-whatsapp" style="margin-right: 10px; font-size: 1.5em;"></i> Solicitar Orçamento
 </a>
 
 </body>
