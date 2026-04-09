@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIAPER | Engenharia, Avaliações e Perícias</title>
+  <meta name="description" content="VIAPER Engenharia, Avaliações e Perícias. Avaliação de imóveis urbanos e rurais, perícias de engenharia, laudos e pareceres técnicos, assistência técnica judicial e estudos de áreas em Uberlândia, Triângulo Mineiro e Minas Gerais.">
+  <meta name="keywords" content="VIAPER, engenharia, avaliações, pericias, perícias, avaliação de imóveis, avaliação imobiliária, laudo técnico, parecer técnico, assistência técnica judicial, perícia de engenharia, estudos de áreas, Uberlândia, Minas Gerais">
+  <meta name="author" content="VIAPER Engenharia, Avaliações e Perícias">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="VIAPER | Engenharia, Avaliações e Perícias">
+  <meta property="og:description" content="Soluções especializadas em avaliações imobiliárias, perícias de engenharia, laudos e pareceres técnicos.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/viaper-logo-site.png">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="icon" type="image/png" href="assets/viaper-logo-site.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="topo">
+    <div class="container nav-wrap">
+      <a href="#topo" class="brand" aria-label="VIAPER">
+        <img src="assets/viaper-logo-site.png" alt="VIAPER Engenharia Avaliações e Perícias" class="brand-logo">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#quem-somos">Quem somos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#atuacao">Atuação</a>
+        <a href="#contato" class="nav-cta">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Engenharia • Avaliações • Perícias</p>
+          <h1>Rigor técnico, imparcialidade e conformidade com as normas da ABNT.</h1>
+          <p class="lead">
+            A VIAPER atua com soluções especializadas em <strong>avaliações de imóveis</strong>,
+            <strong>perícias de engenharia</strong>, <strong>laudos técnicos</strong>,
+            <strong>pareceres técnicos</strong> e <strong>assistência técnica judicial</strong>.
+          </p>
+          <div class="hero-actions">
+            <a href="https://wa.me/5534984234045" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Falar no WhatsApp</a>
+            <a href="#servicos" class="btn btn-secondary">Ver serviços</a>
+          </div>
+          <ul class="hero-highlights">
+            <li>Avaliação de imóveis urbanos e rurais</li>
+            <li>Laudos com fundamentação técnica</li>
+            <li>Atendimento em Uberlândia, Triângulo Mineiro e MG</li>
+          </ul>
+        </div>
+
+        <div class="hero-card">
+          <img src="assets/viaper-logo-site.png" alt="Logo VIAPER" class="hero-logo">
+          <div class="hero-card-box">
+            <h2>Áreas principais</h2>
+            <ul>
+              <li>Avaliação de Imóveis</li>
+              <li>Perícias de Engenharia</li>
+              <li>Laudos e Pareceres Técnicos</li>
+              <li>Assistência Técnica Judicial</li>
+              <li>Estudos de Áreas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="quem-somos">
+      <div class="container two-col">
+        <div>
+          <p class="section-tag">Quem somos</p>
+          <h2>Especialização técnica para demandas imobiliárias, judiciais e de engenharia.</h2>
+          <p>
+            A <strong>VIAPER Engenharia, Avaliações e Perícias</strong> atua com rigor técnico,
+            imparcialidade e conformidade com as normas da ABNT, oferecendo soluções especializadas
+            em avaliações imobiliárias, perícias de engenharia e elaboração de laudos técnicos.
+          </p>
+        </div>
+        <div class="info-card">
+          <h3>Atuamos em</h3>
+          <ul class="check-list">
+            <li>Avaliações de imóveis urbanos e rurais</li>
+            <li>Perícias técnicas de engenharia</li>
+            <li>Elaboração de laudos e pareceres técnicos</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="servicos">
+      <div class="container">
+        <p class="section-tag">Serviços</p>
+        <h2>Serviços prestados pela VIAPER</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Avaliação de Imóveis</h3>
+            <p>Avaliações imobiliárias com base técnica para imóveis urbanos e rurais.</p>
+          </article>
+          <article class="card">
+            <h3>Perícias de Engenharia</h3>
+            <p>Análises técnicas para demandas judiciais, extrajudiciais e administrativas.</p>
+          </article>
+          <article class="card">
+            <h3>Laudos e Pareceres Técnicos</h3>
+            <p>Elaboração de documentos técnicos com clareza, fundamentação e consistência.</p>
+          </article>
+          <article class="card">
+            <h3>Assistência Técnica Judicial</h3>
+            <p>Apoio técnico especializado em processos judiciais e acompanhamento pericial.</p>
+          </article>
+          <article class="card">
+            <h3>Estudos de Áreas</h3>
+            <p>Levantamentos e análises para tomada de decisão com segurança técnica.</p>
+          </article>
+          <article class="card">
+            <h3>Consultoria Técnica</h3>
+            <p>Soluções em engenharia, avaliações e perícias com foco em confiabilidade e resultado.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="diferenciais">
+      <div class="container two-col">
+        <div>
+          <p class="section-tag">Diferenciais</p>
+          <h2>Base técnica sólida e método confiável.</h2>
+          <ul class="check-list">
+            <li>Atuação conforme ABNT NBR 14653</li>
+            <li>Aplicação do Método Comparativo Direto de Dados de Mercado</li>
+            <li>Tratamento técnico com homogeneização e análise de outliers</li>
+            <li>Laudos com fundamentação técnica e validade judicial</li>
+            <li>Rastreabilidade e consistência dos dados</li>
+            <li>Rigor técnico e imparcialidade</li>
+          </ul>
+        </div>
+        <div class="info-card" id="atuacao">
+          <h3>Área de atuação</h3>
+          <ul class="pin-list">
+            <li>Uberlândia – MG</li>
+            <li>Triângulo Mineiro</li>
+            <li>Minas Gerais</li>
+          </ul>
+          <div class="seo-box">
+            <h4>Palavras-chave estratégicas</h4>
+            <p>
+              perícia, perícias, avaliações, avaliação de imóveis, avaliação imobiliária,
+              laudo técnico, parecer técnico, perícia de engenharia, assistência técnica judicial,
+              estudos de áreas, Uberlândia, Minas Gerais.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="contato">
+      <div class="container contact-wrap">
+        <div>
+          <p class="section-tag">Contato</p>
+          <h2>Vamos conversar sobre sua demanda técnica.</h2>
+          <p>Entre em contato para solicitar atendimento, orçamento ou mais informações sobre os serviços da VIAPER.</p>
+        </div>
+        <div class="contact-card">
+          <p><strong>E-mail:</strong> engenharia@viaper.com.br</p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/5534984234045" target="_blank" rel="noopener noreferrer">(34) 9 8423-4045</a></p>
+          <p><strong>Localização:</strong> Uberlândia – MG</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <strong>VIAPER Engenharia, Avaliações e Perícias</strong>
+        <p>Uberlândia – MG</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:engenharia@viaper.com.br">engenharia@viaper.com.br</a>
+        <a href="https://wa.me/5534984234045" target="_blank" rel="noopener noreferrer">(34) 9 8423-4045</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5534984234045" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">WhatsApp</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
